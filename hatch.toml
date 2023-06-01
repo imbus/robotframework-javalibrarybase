@@ -78,8 +78,7 @@ matrix.rf.dependencies = [
 
 [envs.lint]
 #skip-install = true
-#extra-dependencies = ["tomli>=2.0.0"]
-features = ["all"]
+
 
 [envs.lint.scripts]
 typing = ["mypy --install-types --non-interactive {args:.}"]
