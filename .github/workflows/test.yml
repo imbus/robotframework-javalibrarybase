@@ -36,9 +36,6 @@ jobs:
             8
             ${{ matrix.java }}
 
-      - name: Print java toolchains
-        run: cat /home/runner/.m2/toolchains.xml
-
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
