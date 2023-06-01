@@ -45,5 +45,8 @@ jobs:
       - name: Install Hatch
         run: pip install --upgrade hatch
 
+      - name: Run Maven
+        run: mvn -B -DskipTests=true package
+
       - name: Run tests
         run: hatch run test
