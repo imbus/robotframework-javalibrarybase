@@ -1,3 +1,6 @@
+/* SPDX-FileCopyrightText: 2023-present imbus AG
+
+SPDX-License-Identifier: Apache-2.0package*/
 package de.imbus.robotframework.example;
 
 public class ExampleLibrary1 {
