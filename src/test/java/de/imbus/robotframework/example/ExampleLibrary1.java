@@ -1,8 +1,6 @@
 package de.imbus.robotframework.example;
 
-import de.imbus.robotframework.RobotLibrary;
-
-public class ExampleLibrary1 implements RobotLibrary {
+public class ExampleLibrary1 {
 
     public int calculate(int a, int b) {
 
@@ -36,7 +34,7 @@ public class ExampleLibrary1 implements RobotLibrary {
         if (b) {
             System.out.println("Hello from java");
         } else {
-        System.out.println("Nonono Hello from java");
+            System.out.println("Nonono Hello from java");
         }
     }
 }

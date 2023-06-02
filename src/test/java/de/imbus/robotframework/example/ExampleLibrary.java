@@ -1,13 +1,17 @@
 package de.imbus.robotframework.example;
 
-import de.imbus.robotframework.RobotLibrary;
 import de.imbus.robotframework.exceptions.Failure;
 import de.imbus.robotframework.exceptions.FatalError;
 import de.imbus.robotframework.exceptions.SkipExecution;
+import de.imbus.robotframework.RobotLibrary;
 import de.imbus.robotframework.exceptions.ContinuableFailure;
 import de.imbus.robotframework.exceptions.Error;
 
-public class ExampleLibrary implements RobotLibrary {
+/**
+ * Example library for Robot Framework
+ */
+@RobotLibrary(scope = "SUITE")
+public class ExampleLibrary {
 
     public void doSomethingFromJava() {
         System.out.println("Hello from java");
